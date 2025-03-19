@@ -1,8 +1,8 @@
 //使用静态库
 #include <stdio.h>
-#include "calc.h"
-#include "show.h"
-
+//#include "calc.h"
+//#include "show.h"
+#include"math.h"
 int main(void){
 	int a = 8,b = 5;
 	show(a,'+',b,add(a,b));
